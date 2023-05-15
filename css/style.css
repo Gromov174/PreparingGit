@@ -1,0 +1,34 @@
+.wrapper {
+  min-height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background: url(/images/Stars.jpg) 0 0 / cover ;
+}
+
+.container {
+  max-width: 1250px;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+.textblock {
+  margin: 35% auto;
+  max-width: 1000px;
+  padding: 30px;
+  background: #293e61;
+  border-radius: 30px;
+  transition: background-color 0.3s;
+  overflow: hidden;
+}
+
+.textblock:hover {
+  background-color: #3e61a1;
+}
+
+.textblock-title {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 46px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
